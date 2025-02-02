@@ -1,0 +1,7 @@
+# Editor files
+.vscode
+
+# Binaries
+examples/touch/touch.exe
+examples/touch/touch
+*.exe

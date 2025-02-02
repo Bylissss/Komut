@@ -1,0 +1,9 @@
+NAME = touch
+CC = gcc
+CFLAGS = -O3 -o
+
+all: 
+	${CC} ${CFLAGS} ${NAME} ${NAME}.c
+
+clean:
+	rm ${NAME}
