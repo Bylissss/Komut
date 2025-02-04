@@ -7,9 +7,6 @@
 
 #include "stdio.h"
 #include "../../komut.h"
-#include "args.h"
-#include "help.h"
-#include "version.h"
 
 #if defined(_WIN32)
    void touch_create_file(char* path){
@@ -24,8 +21,7 @@
 
 int main(int argc, char** argv){
 
-    arg* args = komut_arg_init();
-    komut_init(argc, argv, args, help);
+        printf("hello");
+        return 0;
 
-    return 0;
 }

@@ -1,5 +1,7 @@
 # Editor files
 .vscode
+examples/../.vs
+examples/../.vs
 
 # Binaries
 examples/touch/touch.exe
